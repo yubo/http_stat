@@ -8,7 +8,7 @@
 #endif
 
 //#define __HTTP_ERROR_DISABLE_TS__
-#define __HTTP_ERROR_DEBUG__
+//#define __HTTP_ERROR_DEBUG__
 
 #define HTTP_STAT_F_SKIP		0x00000001  /* http stat flags */
 #define HTTP_STAT_F_MODI		0x00000002	/* Modified */
