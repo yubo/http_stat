@@ -1,5 +1,5 @@
 # http_stat 简介
-http_stat 是一个linux module, 在POST_ROUTING,LOCAL_IN处对经过的http内容做检查和替换，可以匹配responses中的特定编号,然后替换内容,比如替换所有404页面的内容，如下图：
+http_stat 是一个linux module, 在POST_ROUTING,LOCAL_IN处对经过的http内容做检查和替换，放置在服务器，本地，或者网关位置都可以工作。用来匹配responses中的特定编号,然后替换内容,比如替换所有404页面的内容，如下图：
 
 ![Alt text][http_img1]
 
