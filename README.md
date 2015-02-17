@@ -6,6 +6,7 @@ http_stat 是一个linux module, 在POST_ROUTING,LOCAL_IN处对经过的http内�
 
 ### 使用
 ```
+#在linux-3.2.62上测试通过，make前请确认有module编译环境
 git clone https://github.com/yubo/http_stat.git
 cd http_stat
 make
